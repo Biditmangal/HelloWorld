@@ -1,21 +1,4 @@
-#include <math.h>
-#include <time.h>
-#include <ctype.h>
-#include <stdio.h>
-#include <assert.h>
-#include <stdlib.h>
-#include <string.h>
-#include <map>
-#include <set>
-#include <deque>
-#include <queue>
-#include <stack>
-#include <bitset>
-#include <string>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <array>
+#include<iostream>
 
 using namespace std;
 
@@ -41,15 +24,8 @@ void solve()
 }
 int main()
 {
-
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdouw);
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-
     int t = 1;
-    cin >> t;
+//     cin >> t;
     while (t--)
         solve();
 
